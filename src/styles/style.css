@@ -1,4 +1,17 @@
 @import './fonts.css';
 @import './components/box-sizing.css';
+@import './components/visually-hidden.css';
+@import './components/button.css';
 @import './components/page.css';
+@import './components/header.css';
+@import './components/navigation.css';
 
+:root {
+  --yellow: hsl(40, 97%, 58%);
+  --yellow-light: hsl(39, 100%, 94%);
+  --dark-grey: hsl(215, 14%, 23%);
+  --dark-navy: hsl(216, 17%, 35%);
+  --dim-grey: hsl(217, 12%, 62%);
+  --light-grey: hsl(212, 41%, 93%);
+  --snow: hsl(214, 37%, 96%);
+}
