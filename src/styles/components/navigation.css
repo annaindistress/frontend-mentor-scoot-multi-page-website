@@ -59,8 +59,4 @@
   .navigation__link {
     color: var(--dim-grey);
   }
-
-  .navigation__button {
-    padding-inline: 37px;
-  }
 }

@@ -6,7 +6,7 @@
 }
 
 .header__menu-button {
-  position: fixed;
+  position: absolute;
   inset-block-start: 0;
   inset-inline-start: 10px;
   width: 64px;
@@ -38,6 +38,21 @@
 
   .header {
     position: relative;
+  }
+
+  .header--open {
+    position: fixed;
+    inset: 0;
+    height: 64px;
+    background-color: white;
+  }
+
+  .header--open::before {
+    content: '';
+    position: fixed;
+    inset: 64px 0 0 0;
+    background-color: black;
+    opacity: .75;
   }
 
   .header__navigation {

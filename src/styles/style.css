@@ -5,6 +5,7 @@
 @import './components/page.css';
 @import './components/header.css';
 @import './components/navigation.css';
+@import './components/page-header.css';
 
 :root {
   --yellow: hsl(40, 97%, 58%);
