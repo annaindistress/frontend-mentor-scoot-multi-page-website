@@ -5,3 +5,10 @@
   font-size: 15px;
   line-height: 1.67;
 }
+
+@media (max-width: 767px) {
+
+  .header--open + .page__main {
+    margin-top: 64px;
+  }
+}

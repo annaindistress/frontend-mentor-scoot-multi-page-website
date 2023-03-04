@@ -13,9 +13,8 @@ class App {
   }
 
   _toggleMobileMenu() {
-    headerToggleElement.classList.toggle('header__menu-button--open');
-    navigationElement.classList.toggle('navigation--open');
     headerElement.classList.toggle('header--open');
+    navigationElement.classList.toggle('navigation--open');
   }
 }
 

@@ -19,7 +19,7 @@
   cursor: pointer;
 }
 
-.header__menu-button--open {
+.header--open .header__menu-button {
   background-image: url('/images/icon-close.svg');
 }
 
