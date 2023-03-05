@@ -102,7 +102,6 @@
   .footer__app {
     padding-block: 62px;
     padding-inline: 0;
-    background-position: 93% bottom;
     background-size: 130%;
   }
 
@@ -147,8 +146,8 @@
 
   .footer__app {
     padding-block: 102px;
-    background-position: 93% bottom;
-    background-size: 130%;
+    background-position-x: right;
+    background-size: 70%;
   }
 
   .footer__container {
