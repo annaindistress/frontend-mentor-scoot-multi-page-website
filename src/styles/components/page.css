@@ -4,6 +4,7 @@
   font-family: 'Lexend Deca', sans-serif;
   font-size: 15px;
   line-height: 1.67;
+  color: var(--dim-grey);
 }
 
 @media (max-width: 767px) {
