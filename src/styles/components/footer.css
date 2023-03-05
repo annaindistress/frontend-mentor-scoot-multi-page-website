@@ -1,0 +1,98 @@
+.footer__app {
+  padding-block: 88px;
+  padding-inline: 32px;
+  text-align: center;
+  background-color: var(--dark-navy);
+  background-image: url('/images/patterns/grey-circles.svg');
+  background-repeat: no-repeat;
+  background-position: 93% bottom;
+  background-size: 300%;
+
+}
+
+.footer__title {
+  margin: 0;
+  margin-block-end: 40px;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -1.43px;
+  color: white;
+}
+
+.footer__app-list {
+  display: grid;
+  grid-template-columns: 113px 130px;
+  gap: 12px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__app-link {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.footer__app-link--apple {
+  background-image: url('/images/app-apple.svg');
+}
+
+.footer__app-link--google {
+  background-image: url('/images/app-google.svg');
+}
+
+.footer__app-link:hover,
+.footer__app-link:focus {
+  outline-color: var(--yellow);
+}
+
+.footer__main {
+  padding-block-start: 64px;
+  padding-block-end: 88px;
+  background-color: var(--dark-grey);
+}
+
+.footer__logo-link {
+  display: block;
+  width: 107px;
+  height: 28px;
+  margin-block-end: 40px;
+  margin-inline: auto;
+}
+
+.footer__logo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.footer__nav {
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  margin-block-end: 85px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__nav-link {
+  display: block;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+.footer__nav-link:hover,
+.footer__nav-link:focus {
+  color: var(--yellow);
+}

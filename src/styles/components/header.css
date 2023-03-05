@@ -29,9 +29,7 @@
 }
 
 .header__logo {
-  display: block;
-  width: 100%;
-  height: auto;
+  color: var(--dark-navy);
 }
 
 @media (max-width: 767px) {

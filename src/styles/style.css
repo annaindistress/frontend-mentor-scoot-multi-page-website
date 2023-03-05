@@ -2,11 +2,13 @@
 @import './components/box-sizing.css';
 @import './components/visually-hidden.css';
 @import './components/button.css';
+@import './components/social.css';
 @import './components/page.css';
 @import './components/header.css';
 @import './components/navigation.css';
 @import './components/page-header.css';
 @import './components/manual.css';
+@import './components/footer.css';
 
 :root {
   --yellow: hsl(40, 97%, 58%);
