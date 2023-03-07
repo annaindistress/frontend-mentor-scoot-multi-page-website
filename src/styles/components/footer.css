@@ -50,6 +50,7 @@
 .footer__app-link:hover,
 .footer__app-link:focus {
   outline-color: var(--yellow);
+  outline-offset: 4px;
 }
 
 .footer__main {
@@ -64,6 +65,8 @@
   height: 28px;
   margin-block-end: 40px;
   margin-inline: auto;
+  outline-color: var(--yellow);
+  outline-offset: 4px;
 }
 
 .footer__logo {

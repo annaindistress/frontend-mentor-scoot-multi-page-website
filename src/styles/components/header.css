@@ -26,6 +26,8 @@
 .header__link {
   width: 75px;
   height: 20px;
+  outline-color: var(--yellow);
+  outline-offset: 4px;
 }
 
 .header__logo {
