@@ -111,7 +111,7 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 1;
-  letter-spacing: 1.43px;
+  letter-spacing: -1.43px;
   color: var(--dark-navy);
 }
 
@@ -190,7 +190,7 @@
   .info__title {
     margin-block-end: 40px;
     font-size: 48px;
-    letter-spacing: 2.14px;
+    letter-spacing: -2.14px;
   }
 
   .info__text {
